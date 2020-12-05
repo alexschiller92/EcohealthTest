@@ -35,6 +35,52 @@ highlights: |
 <!-- The actual document text starts here: -->
 
 # Summary
+My thesis focused on examining canine distemper virus in coyotes in the metropolitan area of Chicago. This study is in collaboration with the Urban Coyote Research Project in Chicago. The study was initiated back in the early 2000s to understand how coyotes have become so successful in living in urban areas and gain insight into their interaction with other wildlife, domestic animals, and humans.
+ The specific aims included:
+1)	investigating the differences in CDV seroprevalence by age and sex classes, 
+2)	 identifying potential outbreak years, 
+3)	determining whether coyote social status (i.e. transient vs. resident) and home range position in the urban landscape influenced individual exposure risk. 
+Home range position in the urban landscape was assessed in relation to three physical barriers: 1) rivers 2) interstates and 3) railways. 
+
+The association between CDV seropositivity and each predictor variable was assessed using binomial generalized linear mixed models (GLMMs) with a logit link function using the lme4 package in the statistical program R. 
+For the first objective, exploring the association between CDV and age class, sex, and year, we used independent univariable GLMMs. Study site, year, and coyote ID were included as random effects to account for non-independence of observations and repeated measures. For the second objective, exploring the importance of social status and physical barriers, we used multivariable GLMMs. Specifically, we looked at the association between social status and age class in relation to CDV while including year and study site as random effects. For physical barriers, we examined the association between CDV and the 3 barriers namely railways, interstates, and rivers and included study site as a random effect. In each model the variable age class was included because we expected that it was an important variable for CDV seropositivity.  The Multi-Model Inference (MuMInn) package was used to perform model selection and model averaging. The coefficient of determination (r2) was used to quantify the variance explained by predictor variables. Since models included random effects, we presented marginal r2 (rm2) and conditional r2  (rc2) values. rm2   represents the variance explained by the predictor variables and rc2 the variance explained by both predictor variables and random effects. 
+Below are two examples of my coding analysis to examine the association between CDV and the predictor variable, age class using independent univariable GLMMs and looking at the association between age class and social status in relation to CDV using multivariable GLMMs. Unfortunately, because this is still an ongoing research, I am unable to show the raw data. The figures that coincide with the data can be found in the " analysis" folder under figures and are " figure 2" and "figure 5b". 
+
+global <- glmer(CDV.Result ~ Age.Class + (1|Study.Area) +(1|Year),
+                family = binomial(link = "logit"), data = D)
+summary(global)
+or <- exp(fixef(global))
+conf <- exp(confint(global))
+Anova(global)
+r.squaredGLMM(global)
+
+Predictor	Sample Size	     OR [95%CI]	   P Value 	rm2	  rc2
+Adult        148            1              Ref
+Subadult     129         0.29 [0.17-0.50]  <0.0001 0.13  0.24
+Pup	         135         0.17 [0.10-0.30]  <0.0001	
+
+
+m <- glmer(CDV.Result ~ Age.Class + social.status + Age.Class * social.status + (1|Year)+ (1|Study.Area),
+           family = binomial(link="logit"),data = D)
+summary(m)
+or <- exp(fixef(m))
+conf <- exp(confint(m))
+Anova(m)
+r.squaredGLMM(global)
+
+
+Predictor	            OR [95%CI]	      P value	rm2	  rC2
+age class (subadult)	0.20 [0.09-0.42]	<0.0001	0.21	0.32
+age class (pup)	      0.08 [0.03-0.17]	<0.0001		
+social status (transient)0.30 [0.10-0.87] 0.03	
+
+age class (subadult) 
+* social status 
+(transient)	          0.51 [0.05-4.50]    0.20		
+age class (pup)
+* social status 
+(transient)           	0.35 [0.03-3.64]	0.06	
+
 
 # Abstract
 Rapid urbanization across the world has caused humans and wildlife to live in close proximity sharing more common spaces and increasing the frequency of interaction between the two. Coyote (Canis latrans) populations have established themselves throughout major cities in North America increasing the potential of interaction with other species including wildlife, domestic animals, and humans, and thus increasing the risk of disease transmission. Canine distemper virus (CDV) was examined in a coyote population sampled in the metropolitan areas of Chicago. The specific aims included investigating the differences in CDV seroprevalence by age and sex classes, identifying potential outbreak years, and determining whether coyote social status (i.e. transient vs. resident) and home range position in the urban landscape influenced individual exposure risk. Home range position in the urban landscape was assessed in relation to three physical barriers: 1) rivers 2) interstates and 3) railways. The overall results showed that age class and social status were important predictors but sex was not. Adult and resident coyotes showed the highest odds of CDV seropositivity. Seroprevalence tended to increase over time, with some variations within the time period included in the study, which may be associated with outbreaks reported in local raccoon and dog populations. Our findings reveal the most at risk classes among the coyote population for contracting and spreading CDV. None of the three physical barriers examined were important at predicting coyote seropositivity. This was most likely due to limitations of serology data. Focusing on coyotes sampled during outbreak years may help establish an association between physical barriers and CDV and would be an important next step to take. 
