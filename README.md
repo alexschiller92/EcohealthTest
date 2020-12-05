@@ -6,23 +6,24 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh///master?urlpath=rstudio)
 
 This repository contains the data and code for our paper:
+> Schiller,A, (2020)._Serology Study on Canine Distemper Virus
+in Coyotes in Urban Chicago_.
+<https://doi.org/{DOI-to-paper}>
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of journal/book
-> <https://doi.org/xxx/xxx>
-
-Our pre-print is online here:
-
-> Authors, (YYYY). *Title of your paper goes here*. Name of
-> journal/book, Accessed 04 Dec 2020. Online at
-> <https://doi.org/xxx/xxx>
+Our reproduction pre-print is online here:
+> Schiller,A,(2020). _Serology Study on Canine Distemper Virus
+in Coyotes in Urban Chicago_, Accessed 12 Apr 2020. Online at <https://doi.org/{DOI-to-compendium}>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Authors, (2020). *Compendium of R code and data for Title of your
-> paper goes here*. Accessed 04 Dec 2020. Online at
-> <https://doi.org/xxx/xxx>
+>Schiller,A,(2020)._Serology Study on Canine Distemper Virus
+in Coyotes in Urban Chicago_. Accessed 12 Apr 2020. Online at <https://doi.org/{DOI-to-compendium}>
+
+### How to download or install
+
+You can download the compendium as a zip from from this URL: <https://github.com/alexschiller/EcohealthTest/master.zip>
 
 ## Contents
 

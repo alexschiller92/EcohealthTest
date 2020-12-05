@@ -1,9 +1,10 @@
 ---
-title: "Title Goes Here"
+title: "Serology Study on Canine Distemper Virus
+in Coyotes in Urban Chicago"
 author:
-  - Myfirstname Mylastname:
-      email: fl@oneplace.edu
-      institute: [UofO]
+  - Alexandra Schiller:
+      email: schil301@umn.edu
+      institute: [University of Minnesota]
       correspondence: true
   - Yourfirstname Yourlastname:
       email: fl@another.edu
@@ -31,39 +32,177 @@ highlights: |
   These are the highlights. 
 ---
 
-<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
-
-<!-- With the following code you can access and display values from the yml header above. -->
-
-Keywords: `r rmarkdown::metadata$keywords`
-
-Highlights: `r rmarkdown::metadata$highlights`
-
-<!-- The following code chunk defines some general settings how code chunks should behave. -->
-
-```{r setup, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  warning = FALSE,
-  message = FALSE,
-  echo = FALSE,
-  comment = "#>",
-  fig.path = "../figures/",
-  dpi = 300
-)
-```
-
 <!-- The actual document text starts here: -->
 
-# Introduction
+# Summary
 
-Here is a citation [@Marwick2017]
+# Abstract
+Rapid urbanization across the world has caused humans and wildlife to live in close proximity sharing more common spaces and increasing the frequency of interaction between the two. Coyote (Canis latrans) populations have established themselves throughout major cities in North America increasing the potential of interaction with other species including wildlife, domestic animals, and humans, and thus increasing the risk of disease transmission. Canine distemper virus (CDV) was examined in a coyote population sampled in the metropolitan areas of Chicago. The specific aims included investigating the differences in CDV seroprevalence by age and sex classes, identifying potential outbreak years, and determining whether coyote social status (i.e. transient vs. resident) and home range position in the urban landscape influenced individual exposure risk. Home range position in the urban landscape was assessed in relation to three physical barriers: 1) rivers 2) interstates and 3) railways. The overall results showed that age class and social status were important predictors but sex was not. Adult and resident coyotes showed the highest odds of CDV seropositivity. Seroprevalence tended to increase over time, with some variations within the time period included in the study, which may be associated with outbreaks reported in local raccoon and dog populations. Our findings reveal the most at risk classes among the coyote population for contracting and spreading CDV. None of the three physical barriers examined were important at predicting coyote seropositivity. This was most likely due to limitations of serology data. Focusing on coyotes sampled during outbreak years may help establish an association between physical barriers and CDV and would be an important next step to take. 
 
-# Background
+#Introduction
+Cities are one of the most challenging environments for carnivorous mammals (Bateman & Fleming 2012). Cities have a lack of vegetation and resources as well as increased habitat fragmentation and an abundance of roads. In spite of these challenges, some carnivore species have become well-established in cities worldwide (Bateman & Fleming 2012). Species such as the red fox (Vulpes vulpes), coyote (Canis latrans), and raccoon (Procyon lotor) have been able to take advantage of anthropogenic food sources and shelter available in cities, achieving higher population densities than are found in natural and rural environments (Bateman & Fleming 2012).
 
-# Methods
+Coyotes have increasingly populated a number of metropolitan areas across the United States, and they now constitute the largest carnivore group that resides in urban areas (Gehrt 2007).  Coyotes have become more adaptable in metropolitan regions in the Midwest and eastern areas of the United States (Morey et al. 2007). Since coyotes have only expanded their geographic range in the last century, their choice of urbanized landscapes as a habitat is considered to be a relatively recent phenomenon in much of this new range (Gehrt 2007). This species is one of the most controversial carnivores in urban landscapes due to its ambiguous relationships with people, dramatic range expansion, opportunistic behavior, and role as a top predator in most North America metropolitan areas (Gehrt 2007). Further, like other wild carnivores, coyotes can carry pathogens such as canine distemper virus (CDV) and rabies virus (Malmlov et al. 2014 & Gras et al. 2018). The close contact between coyotes and companion animals in urban areas could increase the risk of disease spillover (Gras et al. 2018).  
 
-# Results
+Part of the reason for why coyotes are so successful in urban environments is because urban areas can provide coyotes shelter in places such as golf courses, city parks, and wooded places near residential neighborhoods. Further, coyotes can get access to water sources from lakes, ponds, streams, and wetlands as well as food from prey including deer, rodents, other small mammals, vegetable gardens, and domestic pets, such as cats and dogs (Morey et al. 2007). A study conducted by Gehrt et al. 2009 assessed how coyotes use an urban landscape within the Chicago metropolitan area and the consequences of sharing that space with humans. The study estimated the coyotes’ home-range size and selection of land-use types, including residential, urban grass, urban land, water, and agriculture, in a heavily urbanized landscape, with a particular focus on coyote utilization of parts of urban landscape with high levels of human development or activity. This study emphasized that a primary reason for why coyotes are so successful in urban areas is because they tend to avoid areas associated with high human activity, such as residential, urban grass, and urban land.
+
+While the urban landscape influences coyote ranging behavior, social interactions remain the same. Coyotes establish and hold territories to ensure optimal reproductive fitness through group living; however, coyotes use space differently and can be classified as either residents or transients (Hinton et al. 2015). Resident coyotes belong to a pack that exhibit passive behaviors, such as scent marking, and aggressive behaviors towards coyotes excluded from the group (Hinton et al. 2015). Transient coyotes, on the other hand, are individuals that do not maintain territories and exhibit nomadic traits moving from one area to another (Hinton et al. 2015). In rural areas, coyotes with different social status (i.e. resident vs. transient) are known to differ in their risk of exposure to various pathogens (e.g. canine parvovirus (CPV), canine adenovirus- 1 (CAV-1) (Almberg et al. 2009). However, the importance of social status in urban settings is unknown.  Resident and transient coyotes have been found to use the same type of habitat; however, their pattern of habitat selection is different (Hinton et al. 2015). While resident coyotes maintain their territories, transient coyotes center their movements around their territory via accessible road networks to widen their range of movement (Hinton et al. 2015). In urban settings, both social classes of coyotes (i.e. resident vs. transient) are more attracted to green areas rather than areas reserved for housing and commercial activity (Mitchell et. al 2015). 
+
+That said while coyotes and other carnivore species have succeeded in living in urban environments, physical features present in urban environments such as rivers, roads, and railways can alter their movement patterns and space use. Physical features such as roads and rivers have been found to act as barriers for wildlife movement (Poessel et al. 2014 & Cozzi et al. 2013). For example, roads can define the structure and size of home ranges of urban carnivores such as bobcats (Lynx rufus) and mountain lions (Puma concolor) (Dickson & Beier 2002; Poessel et al. 2014).   Rivers in Botswana acted as a nearly impassable obstacle to species such as spotted hyena (Crocuta crocuta), wild dogs (Lycaon pictus), and cheetahs (Acinonyx jubatus) (Cozzi et al. 2013).  However, there are physical features such as railways that act as corridors for wildlife (Way & Eatough 2006). For example in Boston, Massachusetts coyotes use railways as a corridor to connect their fragmented habitat in a highly urbanised landscape (Way & Eatough 2006). To date there is very little literature that has investigated how the structure of urban landscapes influences the risk of disease exposure. For example, little is known about the importance of anthropogenic and natural physical structures (e.g. rivers, railways, roads) at influencing carnivore exposure to various infectious diseases. Investigating whether these types of physical features of the urban landscape increase or decrease carnivore exposure risk will help predict how outbreaks might unfold within urbanized landscapes. 
+
+For the purpose of this project, we investigated CDV in coyotes in the metropolitan area of Chicago. There have been high occurrences of CDV among carnivores in urban environments. In the Denver Metropolitan area, coyotes tested for various diseases showed a high prevalence of CDV antibodies reaching 44% (Malmlov et al. 2014). In greater Chicago, there have been outbreaks of the disease among the raccoon population. The first occurred in 2000 in Glencoe, IL (Black, 2000) and two others took place in 2016 and 2018 In Cook County, IL (Garcia, 2016; Mueller, 2019). There was also a report of an outbreak in Chicago among domestic dogs in 2004 (Kuehn, 2004).  While coyotes are becoming more abundant in the Chicago area, there is a lack of studies on CDV seroprevalence within their growing populations.
+
+The overall objective of this study is to examine the seroprevalence of CDV in urban coyotes in the metropolitan areas of Chicago. The specific aims include the following: examining the differences in the seroprevalence of CDV by age and sex classes, identifying potential outbreak years, and determining whether the coyotes’ social status (i.e. transient vs. resident) and home range positions in urban landscapes influence individual exposure risk. Based on previous findings by Cypher et al. (1998) and Gese et al. (1991), this study’s hypothesis predicts that CDV seropositivity will differ among age classes where the seroprevalence of CDV is highest in adults and lowest in pups. Also in line with previously mentioned studies, sex would not be a determinant for seropositivity. With regards to outbreak years, the study’s hypothesis predicts that the outbreak years in the coyote population would have been the same as those detected in the raccoon and domestic dog population since CDV can infect multiple carnivore species. Even though there are no previous studies assessing whether there is any correlation between CDV transmission and coyote home range location, it has been established that resident coyotes generally belong to a pack whereas transients are nomadic individuals that disperse to multiple territories (Hinton et al. 2015). Therefore, residents are expected have a higher risk of exposure to CDV due to greater contact rate with coyotes.  Lastly, with regards to home range locations near physical barriers including interstates, railways, and rivers, the study predicts that coyotes with home ranges near interstates and rivers will have a higher risk of exposure to CDV because these two barriers put them at a greater exposure as they come into contact with individuals travelling within the limits set by these obstacles. However, for home ranges near railways a lower CDV seroprevalence is expected based on the findings from Way & Eatough 2006.
+
+#Methods/Materials
+1. Study Area
+The study was conducted from 2002 to 2018 in the Chicago metropolitan area. The sampling of coyotes took place at 11 sites, which were distributed as follows:  7 were in the northwestern suburbs of Chicago, 3 in urban Chicago, and 1 in southwest Chicago (Fig. 1). PC was the most used site for sampling coyotes as it was near the Urban Coyote Research Center and the least area used was Sagawau (they only sampled 5 and 3 coyotes in 2003 and 2004). In the early years, more sampling was done in the suburban areas, which included PC, MMWF, SVNC, and Busse; starting in 2013 more sampling was done in urban Chicago.
+Figure 1. Map of Chicago showing the 11 sampling site locations for coyotes.
+
+This study is in collaboration with the Urban Coyote Research Project in Chicago. The study was initiated back in the early 2000s to understand how coyotes have become so successful in living in urban areas and gain insight into their interaction with other wildlife, domestic animals, and humans.
+
+2. Animal handling
+Captures were performed between the months of October and April. Coyotes were classified as pups (less than a year), subadults (1-2 years), and adults (over two years). Pups less than 5 months of age were excluded from the study since they could still have their maternal antibodies. The coyotes were trapped using padded footholds and cable restraint devices, which were placed before dusk and checked at dawn the following day. Once caught, the animals were first transported to a research laboratory then injected with telazol 2.5 mg/kg for sedation. Once the animals were sedated, data was collected on their approximate age and sex, and collected blood samples. The ages were estimated based on reproductive condition and tooth wear, and about 3 ml of blood was collected from each animal, to perform serologic testing. A more detailed description of the sampling technique can be found in Gehrt et al. (2009) paper. 
+
+After the coyotes were examined and the sample collection process was completed, the canids were kept in the lab for 5 to 6 hours until the effect of the telazol wore off, and then they were returned to the area where they had been caught. Before releasing the coyotes, they were ear-tagged and fitted with very high frequency (VHF) radio collars. The trapping and handling protocols were approved by Ohio State University’s Institutional Animal Care and Use Committee (IACUC).
+
+3.Testing for antibodies against canine distemper virus 
+The blood samples were placed in serum separation tubes and stored in a freezer, sometimes for several years, before being transferred to the University of Illinois’ Diagnostic Laboratory.  First, the serum was collected by spinning down the blood at 2,500 rpm for 15 minutes. Then the samples were stored at 0 oC until further analysis. At times, it took 5 years for the serum samples to be submitted for diagnostic testing. The antibodies to CDV were measured using a serum-neutralizing test, and samples were considered seropositive at titer levels 1:4 or greater. No blood samples were collected in 2007.
+
+4. Radiotelemetry and home range estimation 
+Triangulation (with program LOCATE II) was used to obtain radiolocations for coyotes by using either a truck-mounted antenna or by visual observations. Coyotes were located once during the day, at least 2 to 3 times per week. The coyotes were also detected at night during tracking shifts. Coyote locations were recorded to the nearest meter using the Universal Transverse Mercator grid system.  
+ Home ranges were estimated using telemetry information for coyotes one-year post capture. A minimum of 30 locations obtained over 6 consecutive months were needed for coyotes to be included in home range analysis. In order to measure coyote home ranges, a type of home range estimator known as the local convex hull (LoCoH) was used. Several studies have found this method to be a useful measure to estimate animal home ranges and utilization distribution because it provides more accurate estimates of home range sizes, and captures hard boundaries such as rivers, cliffs, and mountains (Getz et al. 2007;Scull et al. 2012). All home ranges were created using the ‘adehabitatHR’ package (Calenge 2019) in R (Calenge 2019). 
+ 
+5. Social status classification
+As for classifying coyotes as either resident or transient, we relied on expert opinion used in Gehrt et al. (2009) and adopted the same metrics which included coyote home range size, potential overlap with multiple territories, site fidelity, and genetic relatedness. 
+
+6. Quantifying coyote home range proximity to physical barriers 
+Since one objective of this study was to assess whether physical barriers influenced coyote CDV seropositivity, a 500m buffer was added around railways, interstates, and major rivers. The 4 rivers used including Fox River, Des Plaines River, Chicago River and DuPage River, and the interstates (interstate 94 and 294) and railways were located in Cook County. The buffer was added to take into account that not all of the coyote home ranges will be lined up against the set barriers. The river, interstate, and railway layers were obtained from Cook Central (https://hub-cookcountyil.opendata.arcgis.com/). ArcGIS Pro 2.4 was used. Home range location was estimated for 90 of the resident coyotes in order to test whether the social status of the coyotes influenced their exposure risk to CDV. When measuring the coyotes’ estimated home range, we only used resident coyotes. This is because the transients have a much larger estimated home range making it difficult to determine where they spend the majority of their time in their home range. 
+
+7. Statistical analysis
+The association between CDV seropositivity and each predictor variable was assessed using binomial generalized linear mixed models (GLMMs) with a logit link function using the lme4 package (Bates 2007) in the statistical program R (Calenge 2019). For the first objective, exploring the association between CDV and age class, sex, and year, we used independent univariable GLMMs. Study site, year, and coyote ID were included as random effects to account for non-independence of observations and repeated measures. For the second objective, exploring the importance of social status and physical barriers, we used multivariable GLMMs. Specifically, we looked at the association between social status and age class in relation to CDV while including year and study site as random effects. For physical barriers, we examined the association between CDV and the 3 barriers namely railways, interstates, and rivers and included study site as a random effect. In each model the variable age class was included because we expected that it was an important variable for CDV seropositivity.  The Multi-Model Inference (MuMInn) package was used to perform model selection and model averaging (Barton 2019). The coefficient of determination (r2) was used to quantify the variance explained by predictor variables. Since models included random effects, we presented marginal r2 (rm2) and conditional r2  (rc2) values (Nakagawa & Schielzeth 2012). rm2   represents the variance explained by the predictor variables and rc2 the variance explained by both predictor variables and random effects. 
+
+#Results
+1. Seroprevalence by age class, sex, and year 
+For the study, 413 coyotes were captured, sampled and radiocollared (186 females and 227 males, consisting of 148 adults, 129 subadults, and 135 pups) between 2002 and 2018.  Most of the coyotes were caught in 2014, and the year with the fewest captures was in 2006. Out of the 413 coyotes sampled, 87 were recaptured. The overall prevalence of CDV among the captured coyotes was 42.1% and the year with the highest prevalence was 2010  (63.6%) while the lowest prevalence was in 2005 (7%). 
+For age class, we examined whether CDV seroprevalence varied among 3 different age groups. Based on the results shown in figure 2 and table 1, age class was an important predictor of CDV seropositivity. Adult coyotes had the highest odds of testing positive to CDV whereas pups had the lowest odds and there was a significant difference between adults and pups and adults and subadults, but not between pups and subadults (Table 1). 
+The second predictor variable we looked at was the coyote sex. Table 2 shows that there is no significant difference in the odds of testing positive for CDV between female or male coyotes. 
+
+Figure 2. Barplot of the seroprevalence of canine distemper virus by coyote age classes in the Chicago metropolitan area, 2002 – 2018. The box represents the proportion of coyotes seropositive with canine distemper virus and the whiskers represent 95% confidence intervals.
+
+Table 1. Association between canine distemper virus seroporevalence and age class. OR represents the odds ratio, 95% CI represents the level of confidence; rm2 represents the marginal r2 statistic, and rc2 represents the conditional r2 statistic. 
+Predictor	Sample Size	     OR [95%CI]	   P Value 	rm2	  rc2
+Adult        148            1              Ref
+Subadult     129         0.29 [0.17-0.50]  <0.0001 0.13  0.24
+Pup	         135         0.17 [0.10-0.30]  <0.0001	
+
+Table 2. Association between canine distemper virus seroprevalence and sex. OR represents the odds ratio, 95% CI represents the level of confidence, rm2 represents the marginal r2 statistic, and rc2 represents the conditional r2 statistic.
+
+Predictor	Sample Size	OR [95%CI]	   P Value  	rm2	    rc2
+Female	     186    	1              	Ref		
+Male        	227	   0.99[0.64- 1.53]	0.95	  1.24e-05	0.127
+
+The third predictor variable examined was year where CDV seroprevalence was examined from 2002 to 2018. This part was divided into two sections. First the overall seroprevalence of CDV was examined among all 3-age classes, and then the prevalence of CDV was assessed among subadult and pup coyotes only. Adult coyotes were not included, as showing prevalence among young animals could be an indication of outbreak years. On average, the odds of testing positive are expected to increase by 50% each year (Table 3). Focusing on subadults and pups revealed more distinct annual differences (Fig. 4). Specifically, for pups, the prevalence of CDV was low between 2004 and 2011, followed by an increase from 2012 to 2013. There were no drastic changes in the levels among the subadult population between 2012 and 2018. Between the years of 2011 and 2017 it was relatively stable.
+
+
+Table 3. Association between canine distemper virus seroprevalence and year. OR represents the odds ratio, 95% CI represents the level of confidence; rm2 represents the marginal r2 statistic, and rc2 represents the conditional r2 statistic.
+
+Predictor	Sample Size 	OR [95%CI]      	P Value	rm2	  rc2
+Year        	413	       1.50 [1.19-1.94]	0.0007	0.044	0.121
+
+Figure 3. Seroprevalence of canine distemper by year in the Chicago metropolitan area, 2002 – 2018, but only the years with enough data were plotted. The box represents the proportion of coyotes seropositive with canine distemper virus and the whiskers represent 95% confidence intervals (year not shown is 2007 due to no data collected). 
+ 
+Figure 4. Seroprevalence of canine distemper virus by age class and by year in the Chicago metropolitan area, 2002 – 2018, but only the years with enough data were plotted. The numbers represent the coyotes sampled per year. Only pups and subadults are shown here. The pups are depicted in red and subadults in blue. The box represents the proportion of coyotes seropositive with canine distemper virus and the whiskers represent the 95% CI. 
+
+2. Importance of social status and physical features at influencing seropositivity
+Out of the 413 coyotes sampled, 213 were classified as residents and 90 as transients, while the social status of the remaining 110 canids was unknown. For this part of the study, three predictor variables were considered: social status, age class, and the interaction between the two. We assessed the connection between social status and age class in relation to CDV seropositivity. Similarly to the univariable analysis, age class was a significant predictor of seropositivity  (Table 4).
+
+Figure 5a and table 4 shows that resident coyotes have higher CDV seropositivity than transients. There was also an interaction effect between social status and age class (Table 4). Figure 5b showed that adult resident coyotes have the highest odds of testing positive with CDV. Moreover, the figure shows that age class differences are more distinct among resident coyotes than among transient coyotes. 
+
+ 
+Figure 5a.  Seroprevalence of canine distemper virus in resident and transient coyotes in the Chicago metropolitan area, 2002 – 2018. The box represents the proportion of coyotes seropositive with canine distemper virus and the whiskers represent 95% confidence intervals.
+ 
+Figure 5b. Predicted seroprevalence of canine distemper virus between the coyotes’ social status and age classes in the Chicago metropolitan area, 2002 – 2018. The circle represents the proportion of coyotes seropositive with canine distemper virus and the whiskers represent 95% confidence intervals.
+
+Table 4. Association between canine distemper virus seroprevalence, social status, and age class, and the interaction between social status and age class. OR represents the odds ratio, 95% CI represents the level of confidence; rm2 represents the marginal r2 statistic, and rc2 represents the conditional r2 statistic. The reference level for age class is adults and for social status is residents. 
+
+Predictor	            OR [95%CI]	      P value	rm2	  rC2
+age class (subadult)	0.20 [0.09-0.42]	<0.0001	0.21	0.32
+age class (pup)	      0.08 [0.03-0.17]	<0.0001		
+social status (transient)0.30 [0.10-0.87] 0.03	
+
+age class (subadult) 
+* social status 
+(transient)	          0.51 [0.05-4.50]    0.20		
+age class (pup)
+* social status 
+(transient)           	0.35 [0.03-3.64]	0.06		
+
+While examining the influence of rivers, interstates, and railways on coyote seropositivity to CDV, the study relied on model comparison to determine the best combinations that influence the spread of CDV among coyotes. Table 5 shows the predictor variables in these models, which include age class, age class and railway, age class and interstate, age class, interstate, and railway, and age class and river. The variable age class appears to be an important predictor for CDV seropositivity as it is in all five- model combinations. Each of the 3 barriers appeared in at least one model indicating that they are a moderate predictor. Lastly, sex was not an important predictor, as it was not present in any of the model combinations. 
+
+The last three predictor variables we looked at was whether home ranges of resident coyotes near interstates, railways, or rivers influenced the exposure risk of CDV compared to those whose home ranges were further from those landscape features. The model included testing all 3 barriers together. The results in table 6 show that there is no significant difference between any of the 3 barriers, which indicates that home ranges close or far from interstates, railways, and rivers are not important predictor variables for CDV seroprevalence.
+
+Table 5. Association between canine distemper virus seroprevalence, age class, and physical barriers (railway, interstate, river). K represents the number of parameters, AICc represents Akaike's 'An Information Criterion corrected for small sample size, rm2 represents the marginal r2 statistic, and rc2 represents the conditional r2 statistic.
+
+Model 	Predictors included in each model 	k	ΔAICc	 wt	   rm2	rc2
+1          	age class	                      4	0.00	0.30	0.18	0.33
+2	       age class  +railway                5	0.48	0.23	0.20	0.36
+3	       age class +interstate	            5	0.58	0.22	0.21	0.35
+4	 age class + interstate + railway	        6	1.54	0.14	0.26	0.37
+5	          age class +river               	5	1.98	0.11	0.17	0.38
+
+Table 6. Association between canine distemper virus seroprevalence, age class, and physical barriers
+(interstate, railway, and river). OR represents the odds ratio and 95% CI represents the level of confidence.
+
+Predictor	         Level      	OR [95% CI]
+Age Class	         Adult        1
+	               Subadult     	0.14[0.04-0.49]
+	                 Pup        	0.13[0.03-0.50]
+
+Interstate          No         	1
+                    Yes         0.52[0.17-1.54]
+                
+Railway	            No         1
+                    Yes        2.54[0.57-11.40]
+	
+River	              No         1
+                    Yes        0.58[0.07-5.20]
+
+#Discussion 
+
+The objective of this study was to investigate the seroprevalence of CDV in an urban coyote population in Chicago. The variables examined included age class, potential years of outbreak, sex, social status, and location of home ranges in relation to rivers, interstates, and railways. The results showed that age class, year, and social status were important predictors; however, sex and physical barriers were not.
+
+For age class, as predicted, the outcome showed that adult coyotes (i.e. those over two years of age), had the highest seroprevalence of CDV, and pups (i.e. those less than a year) had the lowest. The higher prevalence in adults could be attributed to many factors namely that those who survived the viral infection had acquired immunity to subsequent exposures and lived a longer life to become exposed to the virus developing a long-persisting titer (Gese et al. 1991). 
+
+The second variable examined was the coyote sexes. Previous research has found that the disease did not differ among the sexes, and, as predicted, the results showed that that there was no drastic difference between female and male coyotes with regards to CDV seroprevalence. 
+ 
+The third variable assessed was year where CDV seroprevalence was examined between 2002 and 2018. The results showed that for each yearly increase the risk of coyotes testing positive became greater. The years exhibiting high CDV seropositivity among subadult and pup coyotes were compared to the periods of outbreak within the raccoon and domestic dog populations. For subadults, 2003 and 2017 showed the highest peaks of CDV seroprevalence, while for pups, 2013 and 2017 were the highest. Subadults showed 0% seroprevalence in 2008 and in years 2005, 2008, 2009, and 2011 the seroprevalence of CDV was at 0% in pups. Among the raccoon population in Greater Chicago, there were CDV outbreaks in 2000, 2016, and in 2018 (Black, 2000 & Garcia, 2016 & Mueller, 2019). For domestic dogs, the CDV outbreak in Chicago took place in 2004 (Kuehn, 2004). Further research would need to be conducted to determine the primary host of CDV, but based on the rise of CDV seroprevalence in subadult and pup coyotes, there is a possible relation between CDV outbreaks in dogs and raccoons with the high incidences among coyotes. The 2003 increase of CDV among subadults could have been due to the 2000 outbreak occurrence among the raccoon population; however, further research would need to be conducted to establish this connection. 
+
+In Japan, raccoons were found to be reservoirs of CDV to wild and zoo animals (Nakano et al. 2009). A study conducted by Nakano et al. 2009 found that many of the raccoons sampled were infected with CDV, which lead the researchers to conclude that the disease was spreading putting domestic dogs and other carnivore species at risk. The implications of these findings on this study are that there could be a correlation between the 2003 CDV increase in subadult coyotes and 2004 outbreak in domestic dogs. Raccoons could have been the reservoir that spread the disease to both species. The 2016 outbreak could be correlated with the 2017 increase of CDV among subadult and pup coyotes. 
+
+For social status, resident and transient coyotes were compared to determine which of the two social classes had a seroprevalence. The results showed that residents had higher CDV seroprevalence compared to transients. Yet, one limitation is that the resident coyotes sampled exceeded the number of transients (213 vs. 90). Thus, it is difficult to confirm that CDV seroprevalence among coyotes is influenced by their social status; Nevertheless, we would expect residents to have a higher risk of being seropositive based on the characteristics of residents and transients. Resident coyotes generally belong to a pack and tend to stay in one area, whereas transients are nomadic and ranging over a larger area fewer contact with other coyotes (Hinton et al. 2015). A further test was done to determine whether age class would be an important determinant when looking at the coyote social class. For resident coyotes, there was a drastic difference in the results among the adults, subadults, and pups, but for transients there was no significant difference. However, as previously mentioned, there was a considerable difference in the sample size. 
+
+The last 3 predictor variables examined were physical barriers, which included interstates, railways, and rivers. The results showed that physical barriers were not significant and did not influence the seroprevalence of CDV among the coyote population. For future studies, a range of buffer distances can be tested and compared to determine if they are a significant variable.  For this study the 500m buffer was only used. Another limitation with the study is that very high frequency (VHF) radio collars were used instead of GPS collars. GPS collars tend to be more compatible with LOCOH when estimating coyote home range. One reason for why we did not detect an association between CDV seroporevalence and rivers, interstates, or railways is because of the limitations of serology data. With serology, it is not known when coyotes were infected in the past. Thus, it is possible that calculated home ranges were not the home ranges that coyotes had when they were infected with CDV. One way to overcome this issue would be to only examine coyotes that were sampled during potential outbreak years. We were not able to do this due to sample size restrictions, but we suggest that future studies consider taking this approach. 
+
+Study by Gras et al. (2018) examined the impact of urban landscape on the CDV seroprevalence among red foxes in Berlin, Germany. The study was conducted as a result of CDV epidemics that affected the fox population of Berlin between 2007 and 2013. This was linked to a spillover from a domestic dog to a fox. Overall the study found that habitat type affects the spread of disease and there are more opportunities for disease transmission in greener areas than in the urban matrix because wildlife tend to reside in those areas. Further research could explore whether coyotes that establish home ranges in parks are more or less likely to be positive for CDV than coyotes that establish home ranges in the urban matrix. 
+
+Other studies have focused on testing diseases among rural coyotes.  Research conducted by Miller et al. (2009) examined different diseases in free- ranging coyotes in South Carolina and the results showed that the canines tested positive for several pathogens. For CDV, 15% tested positive which is significantly lower than the 44% prevalence found in Denver’s urban population (Malmlov et al. 2014).
+
+#Conclusion 
+
+It is important to understand the traits of coyotes and how they utilize their home ranges while studying carnivore infectious diseases, especially in urban areas, where coyotes are becoming more widely established. As the populations grow, the risk of disease transmission between wildlife and domestic populations become higher. The study has established that age class, outbreak years, and social status are significant factors contributing to higher seroprevalence of CDV. These findings are significant as they demonstrate which age and social class are at most risk and the years that marked the highest incidences. These results in this study call for further research focusing on establishing a connection between coyote home range location and years of high CDV seroprevalence.
+
+
+#Acknowledgements
+
+This project would not have been possible without the support and guidance of a number of people at the University of Minnesota. 
+
+Foremost, I would like to thank my research advisor Dr. Meggan Craft for giving me the opportunity to complete my thesis under her supervision.   Participating in this study was an invaluable learning experience, which allowed me to grow in the field of research. 
+
+I would also like to express my appreciation to my program advisor Brad Fruen for helping me define my academic direction over the past three years.  
+To Katherine Worsley-Tonks, I owe a special acknowledgment. Not only did she give me the opportunity to be part of her research project, but she also taught me the skills required and provided her assistance throughout the year.  Her patience, guidance, enthusiasm, and knowledge made my experience at the same time substantial and pleasurable.
+
+I wish to thank members of the dissertation committee Dr. Dominic Travis and Dr. Tiffany Wolf for taking their time to review my thesis and taking part in the defense panel
 
 <!-- Here's some example analysis code: -->
 
@@ -84,11 +223,6 @@ x <- round(pi, 2)
 
 Here is an example of inline code `r x` in the middle of a sentence. 
 
-# Discussion
-
-# Conclusion
-
-# Acknowledgements
 
 <!-- The following line inserts a page break  -->
 
