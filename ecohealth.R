@@ -15,3 +15,11 @@ library(ggthemes)
 library(citr)
 rrtools::add_dependencies_to_description()
 sessionInfo()
+usethis::use_git_config()
+usethis::use_git_config(
+  user.name = "alexschiller92",
+  user.email ="alexschiller92@gmail.com")
+usethis::browse_github_pat()
+usethis::edit_r_environ()
+usethis::use_git()
+usethis::use_github(protocol = "https")
