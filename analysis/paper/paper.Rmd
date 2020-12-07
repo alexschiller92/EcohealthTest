@@ -31,7 +31,7 @@ keywords: |
 highlights: |
   These are the highlights. 
 ---
-
+Add Code to say not to evaluate any of the codes 
 <!-- The actual document text starts here: -->
 
 # Summary
@@ -46,6 +46,7 @@ The association between CDV seropositivity and each predictor variable was asses
 For the first objective, exploring the association between CDV and age class, sex, and year, we used independent univariable GLMMs. Study site, year, and coyote ID were included as random effects to account for non-independence of observations and repeated measures. For the second objective, exploring the importance of social status and physical barriers, we used multivariable GLMMs. Specifically, we looked at the association between social status and age class in relation to CDV while including year and study site as random effects. For physical barriers, we examined the association between CDV and the 3 barriers namely railways, interstates, and rivers and included study site as a random effect. In each model the variable age class was included because we expected that it was an important variable for CDV seropositivity.  The Multi-Model Inference (MuMInn) package was used to perform model selection and model averaging. The coefficient of determination (r2) was used to quantify the variance explained by predictor variables. Since models included random effects, we presented marginal r2 (rm2) and conditional r2  (rc2) values. rm2   represents the variance explained by the predictor variables and rc2 the variance explained by both predictor variables and random effects. 
 Below are two examples of my coding analysis to examine the association between CDV and the predictor variable, age class using independent univariable GLMMs and looking at the association between age class and social status in relation to CDV using multivariable GLMMs. Unfortunately, because this is still an ongoing research, I am unable to show the raw data. The figures that coincide with the data can be found in the " analysis" folder under figures and are " figure 2" and "figure 5b". 
 
+```{r} 
 global <- glmer(CDV.Result ~ Age.Class + (1|Study.Area) +(1|Year),
                 family = binomial(link = "logit"), data = D)
 summary(global)
@@ -53,6 +54,9 @@ or <- exp(fixef(global))
 conf <- exp(confint(global))
 Anova(global)
 r.squaredGLMM(global)
+```
+
+Results: 
 
 Predictor	Sample Size	     OR [95%CI]	   P Value 	rm2	  rc2
 Adult        148            1              Ref
@@ -60,6 +64,7 @@ Subadult     129         0.29 [0.17-0.50]  <0.0001 0.13  0.24
 Pup	         135         0.17 [0.10-0.30]  <0.0001	
 
 
+```{r}
 m <- glmer(CDV.Result ~ Age.Class + social.status + Age.Class * social.status + (1|Year)+ (1|Study.Area),
            family = binomial(link="logit"),data = D)
 summary(m)
@@ -67,7 +72,9 @@ or <- exp(fixef(m))
 conf <- exp(confint(m))
 Anova(m)
 r.squaredGLMM(global)
+```
 
+Results:
 
 Predictor	            OR [95%CI]	      P value	rm2	  rC2
 age class (subadult)	0.20 [0.09-0.42]	<0.0001	0.21	0.32
