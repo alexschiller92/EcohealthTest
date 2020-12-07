@@ -26,3 +26,5 @@ Imports: bookdown,
     usethis (>= 1.6.3)
 Suggests: devtools,
     git2r
+URL: https://github.com/alexschiller92/EcohealthTest
+BugReports: https://github.com/alexschiller92/EcohealthTest/issues
