@@ -31,7 +31,11 @@ keywords: |
 highlights: |
   These are the highlights. 
 ---
-Add Code to say not to evaluate any of the codes 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval=FALSE)
+```
+ 
 <!-- The actual document text starts here: -->
 
 # Summary
